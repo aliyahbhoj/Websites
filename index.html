@@ -1,116 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <title>Global Indian Internation School</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
+    <img id="a" src="avengers.jpg">
+    <br><br><br>
+    <div class="container">
+        <img src="blackpanther.jpg">
+        <img src="cap.jpg">
+        <img src="groot.jpg">
+        <img src="hulk.jpg">
+    </div>
+    <div>
+        <img src="ironman.jpg">
+        <img src="spiderman.jpg">
+        <img src="thanos.jpg">
+        <img src="thor.jpg">
+    </div>
+    <br><br>
+    <div id="avengersassemble" class="carousel slide">
+        <center>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="blackpanther.jpg">
+                </div>
+                <div class="item">
+                    <img src="cap.jpg">
+                </div>
+                <div class="item">
+                    <img src="groot.jpg">
+                </div>
+                <div class="item">
+                    <img src="hulk.jpg">
+                </div>
+                <div class="item">
+                    <img src="ironman.jpg">
+                </div>
+                <div class="item">
+                    <img src="spiderman.jpg">
+                </div>
+                <div class="item">
+                    <img src="thanos.jpg">
+                </div>
+                <div class="item">
+                    <img src="thor.jpg">
+                </div>
+            </div>
+        </center>
+        <a class="left carousel-control" href="#avengersassemble" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 
-    <nav class="navbar-inverse my_nav_bar">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Global Indian International School</a>
-        </div>
+        <a class="right carousel-control" href="#avengersassemble" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#welcome">HOME</a></li>
-                <li><a href="#our">OUR SCHOOL</a></li>
-                <li><a href="#videos">VIDEOS</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-
-    </nav>
-
-
-    <section id="welcome">
-        <img src="image.jpeg" class="profile img-circle">
-        <h1>Global Indian Internation School
-        </h1>
-        <h2>GIIS Noida Ranked No. 1 In The Innovators Category in Times School Survey 2020</h2>
-    </section>
-
-
-    <section id="our">
-        <h1>Our School</h1>
-        <div class="line"></div>
-        <p>
-We feel proud to share that GIIS Noida campus has garnered the top position in the Innovators Category in the prestigious Times School Survey 2020 conducted recently.</p>
-    </section>
-
-    <hr>
-    <section id="videos">
-        <h1>Videos</h1>
-        <div class="line"></div>
-        <br>
-        
-
-      <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
-          *** Feel free to ask queries on info@giis.com ***</marquee>
-
-        
-        
-        <iframe src="https://www.youtube.com/embed/ITsfj5J7KOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500"> </iframe>
-        <br>
-    </section>
-
-    <hr>
-    <section id="about" style="width: 100%;">
-        <h1 style="f">ABOUT</h1>
-        <div class="line"></div>
-        <p>Our mission statement supports this vision while also conveying how we plan to realise it.
-
-            We nurture our global students into men and women who will be leaders of distinction, committed to a spirit of excellence, through high-quality education imparted by globally experienced and caring teachers building strong virtues and values while focusing on all-round development, creativity and entrepreneurship.</p>
-
-    </section>
-
-    <hr>
-
-    <section id="contact">
-
-                <h1>Contact</h1>
-        <div class="line"></div>
-        <br>
-        
-        <div class="container"></div>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14013.007277368564!2d77.3794661!3d28.5922214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3ad4e8c9d96baab8!2sGlobal%20Indian%20International%20School%20(GIIS)%2C%20Noida%20Campus!5e0!3m2!1sen!2sin!4v1608184040259!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        
-        <br>
-        <br>
-        <br>
-        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a href="mailto:info@giis.com?Subject=Hi">
-                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@giis.com</h5>
-            </a>
-        </div>
-
-    </section>
-
-    <script async src="https://drv.tw/inc/wd.js"></script>
-</body>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
 
 </html>
